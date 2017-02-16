@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div id="app">
+      <p>
+        <router-link to="/user/foo">user-foo</router-link>
+        <router-link to="/user/foo/profile">user-foo-profile</router-link>
+        <router-link to="/user/foo/posts">user-foo-posts</router-link>
+
+        <br>
+        <br>
+
+        <router-link to="/admin/foo">admin-foo</router-link>
+        <router-link to="/admin/foo/profile">admin-foo-profile</router-link>
+        <router-link to="/admin/foo/posts">admin-foo-posts</router-link>
+      </p>
+      <router-view></router-view>
+    </div>
+    <script src="dist/index.bundle.js"></script>
+  </body>
+</html>
